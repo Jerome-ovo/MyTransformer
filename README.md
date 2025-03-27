@@ -14,7 +14,9 @@ I copied a diagram of the transformer model architecture as follows:
 ![transformer architecture](/transformer.png)
 
 ## 🤖Development environment:
+
   torch.version  1.11.0
+  
   cuda           11.3
 
 Since I'm not using a visual component or a package like torchvision, torchaudio, but based on pytorch itself, the ambient pytorch version should have little impact. But a reminder to all beginners: remember to use the GPU.
