@@ -15,13 +15,16 @@ I copied a diagram of the transformer model architecture as follows:
 
 ## 🤖Development environment:
 
-  torch.version  1.11.0
-  
-  cuda           11.3
+  * torch.version  1.11.0
+  * cuda           11.3
 
 Since I'm not using a visual component or a package like torchvision, torchaudio, but based on pytorch itself, the ambient pytorch version should have little impact. But a reminder to all beginners: remember to use the GPU.
 
 因为我没有使用诸如可视化组件或像torchvision, torchaudio这样的包，而是基于pytorch本身，所以环境pytorch版本应该影响不大。不过提醒各位新手：记得使用GPU。
+
+Perhaps due to the limitation of computing power, the trained model can not complete the "English-French" translation function well. If you find any problems or deficiencies in my code, please feel free to point them out via "issue"!
+
+或许是由于算力限制，训练出来的模型未能较好地完成“英语-法语”翻译功能。如果你发现了我这份代码中的问题或者不足，欢迎通过“issue”指出！
 
 Tips: Both the dataset (wmt14) and tokenizer used in this project can be downloaded from the Internet (e.g., from Hugging Face, etc.).
 
